@@ -1,5 +1,7 @@
 # Sales & Customer Insights Dashboard
 
+[Download the full dashboard PDF](https://github.com/Sholadanner/Power-BI-Projects/blob/main/Sales_Analysis/New_sales_dashboard_RCD.pdf)
+
 ## Overview
 
 This Power BI project analyzes sales and customer behavior data to uncover valuable insights that drive strategic business decisions. The dashboard highlights seasonal sales trends, customer segmentation, product category performance, shipping preferences, and repeat customer behavior.
