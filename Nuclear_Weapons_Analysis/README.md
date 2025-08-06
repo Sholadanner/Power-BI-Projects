@@ -48,17 +48,7 @@ This project gave me a deeper appreciation for how data can be used to explore:
 
 By visualizing complex historical data, I was able to tell a story about the rise and fall of nuclear weapons in the modern era.
 
----
-
-## Project Files
-
-- Power BI (.pbix) report  
-- Cleaned dataset(s)  
-- Screenshots of the dashboard  
-- Insight summary (this README)
 
 >  *Datasets were sourced from SIPRI, Our World in Data, CTBTO, and FAS.*
 
-
-## ⭐️ If you found this project insightful, give it a star!
 
