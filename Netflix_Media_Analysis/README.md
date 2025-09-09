@@ -1,16 +1,16 @@
-# 📺 Netflix Data Analysis Project
+# Netflix Data Analysis Project
 
 This project analyzes Netflix's catalog of TV shows and movies, focusing on genre distribution, ratings, and box office success.  
 
 ---
 
-## 🎬 TV Shows Insights
+## TV Shows Insights
 
 - **Drama dominates Netflix’s catalog** with **5,034 TV shows** out of a total of **15,988 shows** → **31.5%**.  
 - **Comedy** follows with **2,326 shows** → **14.5%**.  
 - **Animation** ranks third with **1,994 shows** → **12.5%**.  
 
-📊 **Genre Distribution (Top 3)**  
+**Genre Distribution (Top 3)**  
 - Drama: 31.5%  
 - Comedy: 14.5%  
 - Animation: 12.5%  
