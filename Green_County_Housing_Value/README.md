@@ -35,7 +35,7 @@ A divergence is emerging — ZIP **30642** continues to lead in value, while ZIP
 - **Growth Rate Over Time** = Year-on-Year percentage difference.  
 
 ### Data Sources
-- **Zillow Housing Data (ZHVI)** for Greene County ZIP codes.  
+- **Zillow Housing Data[https://www.zillow.com/research/data/] (ZHVI)** for Greene County ZIP codes.  
 - **Shapefiles** from the U.S. Census Bureau ([data.gov](https://www.data.gov)) for spatial analysis and mapping.  
 
 ---
