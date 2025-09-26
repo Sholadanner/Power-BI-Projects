@@ -1,36 +1,73 @@
 # Greene County Housing Analytics Report
 
-This project analyzes housing value trends in Greene County using Zillow Housing Data (ZHVI).  
-Focus areas: ZIP codes **30642**, **30669**, and **30678** from **2010–2025**.
+## Executive Summary
+This report provides a summary of **housing value trends in Greene County** based on Zillow housing data.  
+The analysis focuses on three ZIP codes (**30642, 30669, and 30678**), highlighting **current value, annual growth rates, and long-term trends from 2010 to 2025.**
 
 ---
 
-## 📊 Executive Summary
-- **Highest Value:** ZIP `30642` — **$712,439** (July 2025), **+2.88%** annual change.  
-- **Fastest Growth:** ZIP `30678` — **$555,761** (July 2025), **+3.22%** annual change.  
-- **Lowest Performer:** ZIP `30669` — **$173,132** (July 2025), **−2.44%** annual change.  
-
-### Long-Term Trends
-- **2010–2019:** Flat housing values with volatile growth.  
-- **2020–2022:** Sharp surge across all ZIPs (annual growth rates near 30%).  
-- **2023–2025:** Growth slowed, volatility re-emerged (possible market correction).  
+## Current Housing Value (as of July 2025)
+- **Highest Value:** ZIP **30642** recorded the highest housing value at **$712,439**, reflecting a **+2.88% annual increase**.
+- **Fastest Growth:** ZIP **30678** achieved the highest annual growth rate at **+3.22%**, with a housing value of **$555,761**.
+- **Lowest Performer:** ZIP **30669** had the lowest housing value at **$173,132**, and the only **negative growth rate (-2.44%)**.
 
 ---
 
-## 📈 Current Values & Growth
+## Long-Term Trends
+- **2010–2019:** House values were relatively flat across all ZIP codes, with volatile but upward-trending growth rates.  
+- **2020–2022:** All ZIP codes experienced a sharp surge in housing value and growth rate, with **annual growth peaking near 30%**.  
+- **2023–2025:** Growth slowed and volatility re-emerged, signaling a possible **market correction**.  
 
-| ZIP Code | Current Value (Jul 2025) | Annual Growth Rate |
-|---------:|-------------------------:|-------------------:|
-| **30642** | $712,439 | +2.88% |
-| **30678** | $555,761 | +3.22% |
-| **30669** | $173,132 | −2.44% |
+Key Insight:  
+A divergence is emerging — ZIP **30642** continues to lead in value, while ZIP **30678** shows the strongest growth momentum, highlighting an **affordability gap**.
 
 ---
 
-## ⚙️ Methodology
+## Methodology and Data Sources
 
-**Metrics Calculated**
-```text
-Annual % Change = ((Current − Previous) / Previous) × 100
-3-Year / 5-Year Change = Compound Annual Growth Rate (CAGR)
-Year-on-Year Growth = % change between yearly medians
+### Tools Used
+- **Power BI** → Dashboard creation, measures, and growth calculations.  
+- **ArcMap** → Spatial joins and map visualization.  
+
+### Metrics Calculated
+- **Annual Percentage Change** = ((Current Value – Previous Value) / Previous Value).  
+- **3-Year & 5-Year Percentage Change** = Multi-period compound growth rate.  
+- **Growth Rate Over Time** = Year-on-Year percentage difference.  
+
+### Data Sources
+- **Zillow Housing Data (ZHVI)** for Greene County ZIP codes.  
+- **Shapefiles** from the U.S. Census Bureau ([data.gov](https://www.data.gov)) for spatial analysis and mapping.  
+
+---
+
+## Conclusion and Recommendations
+
+The Greene County housing market has shown **strong long-term appreciation**, especially in ZIP codes **30642 and 30678**. However, ZIP **30669** continues to lag, widening the performance gap.
+
+### Primary Investment Zone
+- **ZIP 30678**  
+  - Strong recent growth (**+3.22%**)  
+  - Mid-range pricing  
+  - Positioned as a **catch-up market** with **upside potential**
+
+### Stable Investment Zone
+- **ZIP 30642**  
+  - High value (**$712K**) and steady appreciation  
+  - Attractive for **long-term, risk-averse investment**  
+  - Premium market with limited affordability  
+
+### Caution Zone
+- **ZIP 30669**  
+  - Negative growth (**-2.44%**)  
+  - Weak long-term appreciation  
+  - Suitable only for **budget buyers or speculative investors**  
+
+---
+
+## Final Note
+- **Short-term:** Expect continued volatility driven by economic factors.  
+- **Mid-term:** ZIP **30678** presents the best opportunity for growth.  
+- **Long-term:** ZIP **30642** remains a **safe haven**.  
+- **Policy Concern:** Affordability challenges may deepen as the **value gap widens** across ZIP codes.  
+
+---
